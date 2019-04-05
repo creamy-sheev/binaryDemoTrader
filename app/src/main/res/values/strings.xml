@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BinaryDemoTrader</string>
+    <string name="binary_demo_trader">BINARY DEMO TRADER</string>
+    <string name="title_activity_main_menu_activity">main_menu_activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="SpinnerValues">
+        <item>Kwota</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aktualnie_saldo_twojego_portfela_wynosi">Aktualnie saldo Twojego portfela wynosi: </string>
+    <string name="czy_na_pewno_chcesz_usun_dane_u_ytkownika">Czy na pewno chcesz usunąć dane użytkownika?</string>
+    <string name="powr_t">Powrót</string>
+    <string name="tak">Tak</string>
+    <string name="pobieram_dane_prosz_czeka">Pobieram dane, proszę czekać...</string>
+    <string name="appDescription">Aplikacja Binary Demo Trader służy do handlu opcjami binarnymi z wykorzystaniem wirtualnego portfela.\n\nGra polega na przeprowadzaniu operacji kupna lub sprzedaży określonej ilości opcji. Gracz przegrywa w przypadku, gdy wyczerpie wszystkie środki z portfela. W takiej sytuacji wirtualny portfela zostaje zresetowany.\n\nInformacje o przeprowadzonych transakcjach oraz opcja resetu danych znajdują się w zakładce Twój portfel.\n\nAplikacja jest przeznaczona na urządzenia mobilne z Systemem Android w wersji 6.0 bądź wyższej.\n\nProjekt aplikacji powstał na potrzeby pracy dyplomowej.</string>
+</resources>

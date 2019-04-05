@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tajner.binarydemotrader.fragment_twoj_portfel">
+
+
+    <LinearLayout
+        android:id="@+id/walletDescriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/generalDescriptionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="@string/aktualnie_saldo_twojego_portfela_wynosi" />
+
+        <TextView
+            android:id="@+id/walletDescriptionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="50000" />
+
+        <Button
+            android:id="@+id/resetDataBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:text="Resetuj dane" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/walletDescriptionLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/walletDescriptionLayout"
+        android:layout_marginStart="60dp"/>
+</RelativeLayout>

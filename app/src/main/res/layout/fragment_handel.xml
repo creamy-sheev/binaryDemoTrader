@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tajner.binarydemotrader.fragment_handel">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/space_left" />
+
+    <Space
+        android:id="@+id/space_left"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"/>
+</RelativeLayout>
